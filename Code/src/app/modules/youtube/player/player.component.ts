@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 
 import { appConfig } from 'appConfig';
 
@@ -9,7 +10,10 @@ import { appConfig } from 'appConfig';
 })
 export class PlayerComponent implements OnInit {
   public embedUrl: string;
+  public trustedEmbedUrl: SafeUrl;
   public videoLoader: boolean;
+
+  constructor(private sanitizer: DomSanitizer) {}
 
   public ngOnInit() {
     const id = window.location.href
@@ -22,6 +26,7 @@ export class PlayerComponent implements OnInit {
 
     this.videoLoader = true;
     this.embedUrl = appConfig.getYoutubeEmbdedUrl(id);
+    this.trustedEmbedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.embedUrl);
   }
 
   /* On video ready hide loader */
