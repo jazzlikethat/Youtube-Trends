@@ -23,10 +23,10 @@ Tasks:
 * [ ] - Implement country search and switch YouTube trends by selected country with autocomplete feature in slide-filters.component
 * [ ] - Implement Category selection and show YouTube trends by selected category with autocomplete feature in slide-filters.component
 * [ ] - Implement Infinite scroll and append more videos to the bottom of the page
-* [x] Fix bug with likes count
-* [x] Fix bug with showing video on a separate page
-* [x] Fix bug with opening filter navigation slide
-* [x] Fix bug with closing filter navigation slide
+* [x] - Fix bug with likes count
+* [x] - Fix bug with showing video on a separate page
+* [x] - Fix bug with opening filter navigation slide
+* [x] - Fix bug with closing filter navigation slide
 * [ ] - Fix bug with selecting count of videos on the main page, that user be able to select more than 50 videos on the page
 * [ ] - Filters button should be hidden when opened video page
 * [ ] - In case if passed wrong video id, the user should be redirected on a page with youtube videos list
