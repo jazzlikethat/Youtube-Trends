@@ -1,3 +1,17 @@
+Tasks:
+* [ ] - Implement country search and switch YouTube trends by selected country with autocomplete feature in slide-filters.component
+* [ ] - Implement Category selection and show YouTube trends by selected category with autocomplete feature in slide-filters.component
+* [ ] - Implement Infinite scroll and append more videos to the bottom of the page
+* [x] - Fix bug with likes count
+* [x] - Fix bug with showing video on a separate page
+* [x] - Fix bug with opening filter navigation slide
+* [x] - Fix bug with closing filter navigation slide
+* [ ] - Fix bug with selecting count of videos on the main page, that user be able to select more than 50 videos on the page
+* [ ] - Filters button should be hidden when opened video page
+* [ ] - In case if passed wrong video id, the user should be redirected on a page with youtube videos list
+* [ ] - Filters should be the same as selected before on page refresh
+* [ ] - Unit tests coverage should be not less than 70%, higher -> better
+
 Project Assessment:
 YouTube Trends is a front-end application that was developed in a hurry to show the latest video trends from YouTube.
 
@@ -18,20 +32,6 @@ Notes:
 * List of countries can be found in the app.config file
 * List of categories should be loaded from Youtube API
 * You may add new dependencies in package.json (if needed)
-
-Tasks:
-* [ ] - Implement country search and switch YouTube trends by selected country with autocomplete feature in slide-filters.component
-* [ ] - Implement Category selection and show YouTube trends by selected category with autocomplete feature in slide-filters.component
-* [ ] - Implement Infinite scroll and append more videos to the bottom of the page
-* [x] - Fix bug with likes count
-* [x] - Fix bug with showing video on a separate page
-* [x] - Fix bug with opening filter navigation slide
-* [x] - Fix bug with closing filter navigation slide
-* [ ] - Fix bug with selecting count of videos on the main page, that user be able to select more than 50 videos on the page
-* [ ] - Filters button should be hidden when opened video page
-* [ ] - In case if passed wrong video id, the user should be redirected on a page with youtube videos list
-* [ ] - Filters should be the same as selected before on page refresh
-* [ ] - Unit tests coverage should be not less than 70%, higher -> better
 
 PLEASE NOTE THAT ALL THE TASKS LISTED ABOVE ARE MANDATORY. We'll be evaluating your submission from the following perspectives:
 * Code quality and best practices
